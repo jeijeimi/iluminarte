@@ -1,0 +1,53 @@
+/* Contacto */
+main {
+    section {
+        #contactoH1 {
+            text-align: center;
+            background-color: $azul;
+            padding: $espaciointerno;
+            grid-area: uno;
+            font-size: 40px;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-weight: 100;
+            color: $blanco;
+        }
+    }
+
+    .datos{
+        h2 {
+            text-align: center;
+            margin: 50px;
+        }
+        
+        .datosInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .datosIconos {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                padding: 5px;
+
+                p {
+                    padding: 20px 15px 0px;
+                }
+            }
+        }
+    }
+    
+    .formulario {
+        width: 600px;
+        background-color: $azul;
+        color: $blanco;
+        padding: 30px;
+
+
+        button{
+            margin-top: 30px;
+        }
+    }
+}
